@@ -14,12 +14,7 @@ def multiply(num1, num2):
 
 # this function will divide two numbers 
 def divide(num1, num2):
-    dividend = num1 / num2
-
-    if dividend.is_integer():
-        return dividend
-    else:
-        return Fraction(dividend)
+    return num1 / num2
 
 # This next section is asking the user if they wanet to add, substract, multiply, or divide 
 print("Select operation for your equation:")
